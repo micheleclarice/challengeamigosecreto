@@ -1,0 +1,102 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.main-content {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do Banner do Cabeçalho */
+.header-banner {
+    margin-bottom: 20px;
+}
+
+.main-title {
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    margin: 0;
+}
+
+.header-banner img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Estilo da Seção de Entrada */
+.input-section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.input-name {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Estilo dos Botões */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.button-draw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-draw img {
+    margin-right: 5px;
+}
+
+/* Estilo das Listas */
+.name-list,
+.result-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.name-list li,
+.result-list li {
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
